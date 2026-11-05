@@ -1,0 +1,39 @@
+{
+  "course_root": "/home/fyj/fvs-course-lab",
+  "dataset_root": "/home/fyj/fvs-course-lab/datasets/yfcc_course_v1",
+  "run_root": "/home/fyj/fvs-course-lab/course_runs",
+  "repo": "/home/fyj/fvs-course-lab/systems/GateANN-public",
+  "tier": "formal_1000000",
+  "repeats": 3,
+  "budgets": {
+    "fixed320": {
+      "low": 320,
+      "medium": 320,
+      "high": 320
+    },
+    "fixed1280": {
+      "low": 1280,
+      "medium": 1280,
+      "high": 1280
+    },
+    "bucket": {
+      "low": 1280,
+      "medium": 640,
+      "high": 320
+    }
+  },
+  "experiment_id": "opt-bucket-01",
+  "integration": {
+    "gateann_commit": "71e87cbf0e25c0400c0109dd25a64a7c4dccc9dd",
+    "course_files_sha256": {
+      "adapters/gateann_adapter.py": "e69f4917764bc9e6f5f1cff40b45679fda18579a003cbad5813cd82fd9ae9b35",
+      "adapters/_common.py": "ce44239117a5d8600ad2c2b211ac5f036fed63c4520dd0c120c688f4b16e5fb9",
+      "adapters/versions.json": "fcd0895d7e8c4a0a84fd12ecb413c37b752dc7411672688a281716fdeeb4da0e"
+    }
+  },
+  "implementation_sha256": {
+    "policy.py": "d08057acb21497878748121633a5556d99bd6462536a2495ef0819106122d800",
+    "run.py": "eabed3709a09a761c1101e83a25470722ed9679243ee6ae755e9ca753f9c68af",
+    "integration.json": "50993e9a4dd0ebc4ad316a070746d8e24501e319f45e14a751b814f529992283"
+  }
+}

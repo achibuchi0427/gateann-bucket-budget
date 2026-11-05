@@ -1,0 +1,31 @@
+{
+  "rows": 27,
+  "groups": 9,
+  "raw_csv_and_query_log_validation": "passed",
+  "summary_recalculation": "passed",
+  "implementation_hashes": "matched",
+  "snapshots": 54,
+  "snapshot_load1_range": [
+    0.26,
+    0.84
+  ],
+  "snapshot_memory_mib": {
+    "MemAvailable": [
+      6280.65234375,
+      6375.4765625
+    ],
+    "Cached": [
+      5979.28125,
+      6375.65234375
+    ],
+    "SwapTotal": [
+      2047.99609375,
+      2047.99609375
+    ],
+    "SwapFree": [
+      2047.484375,
+      2047.484375
+    ]
+  },
+  "host_note": "宿主机后台负载未记录"
+}

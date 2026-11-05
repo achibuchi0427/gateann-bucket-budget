@@ -1,0 +1,8 @@
+{
+  "gateann_commit": "71e87cbf0e25c0400c0109dd25a64a7c4dccc9dd",
+  "course_files_sha256": {
+    "adapters/gateann_adapter.py": "e69f4917764bc9e6f5f1cff40b45679fda18579a003cbad5813cd82fd9ae9b35",
+    "adapters/_common.py": "ce44239117a5d8600ad2c2b211ac5f036fed63c4520dd0c120c688f4b16e5fb9",
+    "adapters/versions.json": "fcd0895d7e8c4a0a84fd12ecb413c37b752dc7411672688a281716fdeeb4da0e"
+  }
+}
